@@ -31,17 +31,6 @@ public class Student {
         return facevalue;
     }
 
-
-//    public void setFacevalue(double facevalue) {
-//        this.facevalue = facevalue;
-//    }
-    /*
-
-
-
-
-     */
-
     @Override
     public String toString() {
         return "Student{" +
@@ -50,6 +39,5 @@ public class Student {
                 ", facevalue=" + facevalue +
                 '}';
     }
-
 
 }
