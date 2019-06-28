@@ -8,5 +8,13 @@
     <artifactId>flink_poc</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.mongodb/mongodb-driver -->
+        <dependency>
+            <groupId>org.mongodb</groupId>
+            <artifactId>mongodb-driver</artifactId>
+            <version>3.10.2</version>
+        </dependency>
+    </dependencies>
 
 </project>
