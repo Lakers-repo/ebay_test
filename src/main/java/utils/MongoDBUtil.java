@@ -17,7 +17,7 @@ public class MongoDBUtil {
     /**
      * mongodb数据库地址	192.168.1.188
      */
-    private static String host = "192.168.1.175";
+    private static String host = "127.0.0.1";
     /**
      * 端口号
      */
