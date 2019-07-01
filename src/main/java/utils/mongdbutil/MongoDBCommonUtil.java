@@ -9,6 +9,7 @@ import com.mongodb.DBCollection;
 import com.mongodb.MongoClient;
 import com.mongodb.MongoCredential;
 import com.mongodb.ServerAddress;
+import com.mongodb.client.MongoDatabase;
 import utils.mongdb.MongoDBCursor;
 import utils.mongdb.MongoDBEntity;
 
@@ -16,8 +17,8 @@ import utils.mongdb.MongoDBEntity;
 public class MongoDBCommonUtil {
 
 
-    public static DB getDB(String host, int port, String database, String username, String password) {
-        DB db = null;
+    public static MongoDatabase getDB(String host, int port, String database, String username, String password) {
+        MongoDatabase db = null;
 
         try {
             // 连接到MongoDB服务 如果是远程连接可以替换“localhost”为服务器所在IP地址
@@ -35,7 +36,7 @@ public class MongoDBCommonUtil {
 
             // 通过连接认证获取MongoDB连接
             MongoClient mongoClient = new MongoClient(addrs, credentials);
-            db = mongoClient.getDB(database);
+            db = mongoClient.getDatabase(database);
         } catch (Exception e) {
             System.err.println(e.getClass().getName() + ": " + e.getMessage());
         }
@@ -43,8 +44,8 @@ public class MongoDBCommonUtil {
     }
 
 
-    public static DB getDBNoUser(String host, int port, String database) {
-        DB db = null;
+    public static MongoDatabase getDBNoUser(String host, int port, String database) {
+        MongoDatabase db = null;
 
         try {
             // 连接到 mongodb 服务
@@ -52,7 +53,7 @@ public class MongoDBCommonUtil {
 
 
             // 连接到数据库
-            db = mongoClient.getDB(database);
+            db = mongoClient.getDatabase(database);
             System.out.println("Connect to database successfully");
 
 
@@ -64,7 +65,7 @@ public class MongoDBCommonUtil {
 
 
     public static void main(String[] args) {
-        DB db = MongoDBCommonUtil.getDBNoUser("localhost", 27017, "admin");
+        MongoDatabase db = MongoDBCommonUtil.getDBNoUser("localhost", 27017, "admin");
         System.out.println(db.toString());
     }
 
