@@ -1,8 +1,0 @@
-
-W
-squid:S106Å"9Replace this use of System.out or System.err by a logger.(–Š½Œ8Òòß¹-
-‚squid:S1488¸"^Immediately return this expression instead of assigning it to the temporary variable "values".(¹ÁÈıÿÿÿÿ8Òòß¹-
-usquid:S3776T"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(˜ü¬úüÿÿÿÿ8Òòß¹-
-Gsquid:S1148É"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Òòß¹-
-jsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ØŸ˜ï8Òòß¹-
-Xsquid:S2864"4Iterate over the "entrySet" instead of the "keySet".(›ÆŞüıÿÿÿÿ8Òòß¹-

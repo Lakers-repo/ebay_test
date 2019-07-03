@@ -1,17 +1,0 @@
-
-V
-squid:S1068"9Replace this use of System.out or System.err by a logger.(Èë¨ï8ÇÊÅß¹-
-\squid:CallToDeprecatedMethod7"-Remove this use of "getDB"; it is deprecated.(º¼ÔÜ8ÇÊÅß¹-
-bsquid:CallToDeprecatedMethod%"3Remove this use of "MongoClient"; it is deprecated.(•Ê÷æ8ÇÊÅß¹-
-V
-squid:S106("9Replace this use of System.out or System.err by a logger.(®à´8ÇÊÅß¹-
-gsquid:S20953"IUse try-with-resources or close this "MongoClient" in a "finally" clause.(ö»Ö™8ÇÊÅß¹-
-gsquid:S2095%"IUse try-with-resources or close this "MongoClient" in a "finally" clause.(•Ê÷æ8ÇÊÅß¹-
-…squid:S1488J"bImmediately return this expression instead of assigning it to the temporary variable "collection".(•ÌËäûÿÿÿÿ8ÇÊÅß¹-
-[
-squid:S106D"9Replace this use of System.out or System.err by a logger.(”µÒıÿÿÿÿ8ÇÊÅß¹-
-csquid:S2259D"@A "NullPointerException" could be thrown; "db" is nullable here.(”µÒıÿÿÿÿ8ÇÊÅß¹-
-\squid:CallToDeprecatedMethod&"-Remove this use of "getDB"; it is deprecated.(º¼ÔÜ8ÇÊÅß¹-
-V
-squid:S106<"9Replace this use of System.out or System.err by a logger.(®à´8ÇÊÅß¹-
-…squid:S1488Q"bImmediately return this expression instead of assigning it to the temporary variable "collection".(—¶ëšÿÿÿÿÿ8ÇÊÅß¹-
