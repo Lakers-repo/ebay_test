@@ -23,17 +23,19 @@ public class CouchBaseUtils {
     private static Cluster cluster;
     private static List<String> couchBasePathList = new ArrayList<String>();
     private static Map<String, Bucket> bucketMap = new HashMap<String, Bucket>();
+    private static Properties properties = PropertiesUtils.loadProps("");
+
     static{
-        couchBasePath = PropertiesUtils.getProperty("couchBase.Server.path");
+        couchBasePath = PropertiesUtils.getString(properties,"couchBase.Server.path");
     }
 
     //初始化化缓存相关配置，外部必须显示调用此方法
     public static void init() {
         cluster = CouchbaseCluster.create(getCouchBasePathList(couchBasePath));
-        bucketMap.put(getBucketName(PropertiesUtils.getProperty("couchBase.website_product")),openBucket(getBucketName(PropertiesUtils.getProperty("couchBase.website_product")),getBucketPwd(PropertiesUtils.getProperty("couchBase.website_product"))));
-        bucketMap.put(getBucketName(PropertiesUtils.getProperty("couchBase.website_company")),openBucket(getBucketName(PropertiesUtils.getProperty("couchBase.website_company")),getBucketPwd(PropertiesUtils.getProperty("couchBase.website_company"))));
-        bucketMap.put(getBucketName(PropertiesUtils.getProperty("couchBase.website_product_group")),openBucket(getBucketName(PropertiesUtils.getProperty("couchBase.website_product_group")),getBucketPwd(PropertiesUtils.getProperty("couchBase.website_product_group"))));
-        bucketMap.put(getBucketName(PropertiesUtils.getProperty("couchBase.website_fundmanager")),openBucket(getBucketName(PropertiesUtils.getProperty("couchBase.website_fundmanager")),getBucketPwd(PropertiesUtils.getProperty("couchBase.website_fundmanager"))));
+        bucketMap.put(getBucketName(PropertiesUtils.getString(properties,"couchBase.website_product")),openBucket(getBucketName(PropertiesUtils.getString(properties,"couchBase.website_product")),getBucketPwd(PropertiesUtils.getString(properties,"couchBase.website_product"))));
+        bucketMap.put(getBucketName(PropertiesUtils.getString(properties,"couchBase.website_company")),openBucket(getBucketName(PropertiesUtils.getString(properties,"couchBase.website_company")),getBucketPwd(PropertiesUtils.getString(properties,"couchBase.website_company"))));
+        bucketMap.put(getBucketName(PropertiesUtils.getString(properties,"couchBase.website_product_group")),openBucket(getBucketName(PropertiesUtils.getString(properties,"couchBase.website_product_group")),getBucketPwd(PropertiesUtils.getString(properties,"couchBase.website_product_group"))));
+        bucketMap.put(getBucketName(PropertiesUtils.getString(properties,"couchBase.website_fundmanager")),openBucket(getBucketName(PropertiesUtils.getString(properties,"couchBase.website_fundmanager")),getBucketPwd(PropertiesUtils.getString(properties,"couchBase.website_fundmanager"))));
         logger.info("缓存服务器连接成功...");
     }
 
