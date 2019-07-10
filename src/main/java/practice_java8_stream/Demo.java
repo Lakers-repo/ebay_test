@@ -1,4 +1,4 @@
-package dao.practice_java8_stream;
+package practice_java8_stream;
 
 import dao.Data;
 import dao.PersonModel;
@@ -173,7 +173,7 @@ public class Demo {
 //        flatMapString();
 //        toJoiningTest();
 //        reduce();
-        toGroupTest();
+//        toGroupTest();
 
         PersonModel personModel=new PersonModel();
 
@@ -206,9 +206,6 @@ public class Demo {
         }));
 
         //如果空，则可以抛出异常
-//        System.out.println(Optional.ofNullable("1").orElseThrow(()->{
-//            throw new RuntimeException("ss");
-//        }));
-
+        System.out.println(Optional.ofNullable("1").orElseThrow(NullPointerException::new));
     }
 }
