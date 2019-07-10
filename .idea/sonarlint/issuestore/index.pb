@@ -13,3 +13,15 @@ g
 7src/main/scala/scala_learning/case_class/Rational.scala,4/c/4cf5c7638f8eaf54f5eb791056f4dc5ccdb90c2b
 _
 /src/main/scala/scala_learning/demo/Demo01.scala,f/c/fce567c5802cdc54ae4f90ca53656ec39882aec4
+_
+/src/main/scala/scala_learning/demo/Demo02.scala,8/1/81e1c78af0ed29d25c41fe3269d47045c176928c
+_
+/src/main/scala/scala_learning/demo/Demo03.scala,f/1/f1b777b8575d962f8df155862876baf46b5cf3c1
+_
+/src/main/scala/scala_learning/demo/Demo04.scala,c/5/c5f21a40045d65b3870f25f559ce2f66306ed4e0
+_
+/src/main/scala/scala_learning/demo/Demo05.scala,a/1/a1b935ad5eb524c82d2190e5f177d4d6518c4926
+_
+/src/main/scala/scala_learning/demo/Demo06.scala,4/0/408130388b83089468063c044404a36f8cb3aaa9
+_
+/src/main/scala/scala_learning/demo/Demo07.scala,f/b/fb3b874f20162104cb4827d1deb07ce703032e3b

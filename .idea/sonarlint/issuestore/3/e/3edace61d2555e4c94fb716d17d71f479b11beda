@@ -1,9 +1,9 @@
 
-}squid:S1192#"ZDefine a constant instead of duplicating this literal "couchBase.website_product" 3 times.(ù÷÷¡şÿÿÿÿ8¯‰ê²»-
-‚squid:S1488P"_Immediately return this expression instead of assigning it to the temporary variable "mapList".(­ıáúÿÿÿÿ8†‡ÿâ»-
-tsquid:S1192J"VDefine a constant instead of duplicating this literal "é…ç½®æ–‡ä»¶æœ‰è¯¯ï¼" 3 times.(¥©½¼8†‡ÿâ»-
 ~squid:S1192%"`Define a constant instead of duplicating this literal "couchBase.website_product_group" 3 times.( ›´¨8¯‰ê²»-
-squid:S1192&"^Define a constant instead of duplicating this literal "couchBase.website_fundmanager" 3 times.(¸ƒ¹—ùÿÿÿÿ8†‡ÿâ»-
-}squid:S1192$"ZDefine a constant instead of duplicating this literal "couchBase.website_company" 3 times.(‰ìÜ®ùÿÿÿÿ8¯‰ê²»-
-Xsquid:S1118":Add a private constructor to hide the implicit public one.(âå×•8àå„ã»-
 psquid:S3776m"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(âüíê8†‡ÿâ»-
+Xsquid:S1118":Add a private constructor to hide the implicit public one.(âå×•8àå„ã»-
+}squid:S1192#"ZDefine a constant instead of duplicating this literal "couchBase.website_product" 3 times.(ù÷÷¡şÿÿÿÿ8¯‰ê²»-
+squid:S1192&"^Define a constant instead of duplicating this literal "couchBase.website_fundmanager" 3 times.(¸ƒ¹—ùÿÿÿÿ8†‡ÿâ»-
+tsquid:S1192J"VDefine a constant instead of duplicating this literal "é…ç½®æ–‡ä»¶æœ‰è¯¯ï¼" 3 times.(¥©½¼8†‡ÿâ»-
+}squid:S1192$"ZDefine a constant instead of duplicating this literal "couchBase.website_company" 3 times.(‰ìÜ®ùÿÿÿÿ8¯‰ê²»-
+‚squid:S1488P"_Immediately return this expression instead of assigning it to the temporary variable "mapList".(­ıáúÿÿÿÿ8†‡ÿâ»-
