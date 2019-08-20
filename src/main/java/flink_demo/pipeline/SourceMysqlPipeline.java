@@ -7,7 +7,7 @@ public class SourceMysqlPipeline {
     public static void main(String[] args) throws Exception {
         final StreamExecutionEnvironment streamExecutionEnvironment = StreamExecutionEnvironment.getExecutionEnvironment();
 
-        streamExecutionEnvironment.addSource(new SourceFromMySQL());
+        streamExecutionEnvironment.addSource(new SourceFromMySQL()).print();
 
         streamExecutionEnvironment.execute("Flink add data source from MySQL");
     }

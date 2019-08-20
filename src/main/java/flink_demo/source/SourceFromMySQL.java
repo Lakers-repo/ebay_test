@@ -17,7 +17,7 @@ public class SourceFromMySQL extends RichSourceFunction<Student> {
     public void open(Configuration parameters) throws Exception {
         super.open(parameters);
         connection = getConnection();
-        String sql = "select * from Student";
+        String sql = "select * from student;";
         ps = this.connection.prepareStatement(sql);
 
     }

@@ -1,8 +1,0 @@
-
-`squid:S2094"BRemove this empty class, write its code or make it an "interface".(Ë­®€8¾Åƒ¾-
-nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(á—ÜÙıÿÿÿÿ8¾Åƒ¾-
-hsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ø—œ<8¾Åƒ¾-
-nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Æíª–ùÿÿÿÿ8¾Åƒ¾-
-nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(»•ûÿÿÿÿ8¾Åƒ¾-
-nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ò–‘ıøÿÿÿÿ8¾Åƒ¾-
-ysquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(—®¬ª8¾Åƒ¾-
