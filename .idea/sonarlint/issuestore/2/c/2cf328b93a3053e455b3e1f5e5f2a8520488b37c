@@ -1,8 +1,7 @@
 
-Fsquid:S1604
-"(Make this anonymous inner class a lambda(şå¼œ8ÎëãÒ½-
-ysquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(—®¬ª8ë€çÒ½-
-V
-squid:S106"9Replace this use of System.out or System.err by a logger.(™±çô8ã×àÒ½-
-[
-squid:S106"9Replace this use of System.out or System.err by a logger.(Ş¼¢’şÿÿÿÿ8ã×àÒ½-
+esquid:S2094	"BRemove this empty class, write its code or make it an "interface".(Æÿãšûÿÿÿÿ8¾Åƒ¾-
+nsquid:CommentedOutCodeLine
+"<This block of commented-out lines of code should be removed.(È‰ÀÜøÿÿÿÿ8¾Åƒ¾-
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(‰÷ç8¾Åƒ¾-
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(»•ûÿÿÿÿ8¾Åƒ¾-
+ysquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(—®¬ª8¾Åƒ¾-
